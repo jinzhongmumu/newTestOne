@@ -1,0 +1,36 @@
+@bi:75rem;
+*{
+  -webkit-overflow-scrolling: auto;
+  margin:0;
+	padding:0;
+	font-family:'Microsoft YaHei','helvetica neue',tahoma,'hiragino sans gb',stheiti,'wenquanyi micro hei','\5FAE\8F6F\96C5\9ED1,\5B8B\4F53',sans-serif;
+} 
+a{
+	text-decoration: none;
+	outline: none;
+	border:none;
+	&:hover{   /* 有 & 时解析的是同一个元素或此元素的伪类，没有 & 解析是后代元素*/
+		cursor:pointer;
+        text-decoration: none;
+        outline: none;
+        border:none;
+	}
+}
+ul li{
+	list-style: none;
+}	
+i, b {
+	font-style: normal;
+}
+h1, h2, h3, h4, h5, h6{
+	font-weight: normal;
+}
+button{
+    border: none;
+    outline:none;
+}
+img {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
